@@ -24,5 +24,5 @@ export const schema = yup.object().shape({
     .string()
     // oneOf iki password inputunun da ayni olmasini saglar
     .oneOf([yup.ref("password")], "Your confirmation password does not match")
-    .required("Password is required"),
+    .required("Confirm your password"),
 });
