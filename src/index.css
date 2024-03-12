@@ -1,0 +1,25 @@
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+.invalid-feedback {
+  display: block;
+  visibility: hidden;
+}
+
+.feedback {
+  color: red;
+}
+
+div .is-invalid + .feedback {
+  visibility: visible;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-page .container {
+  max-width: 50%;
+}
