@@ -4,6 +4,9 @@ CoinMania is a responsive cryptocurrency tracking web application built using Re
 
 ## GIF
 
+![Screen_Recording_2024-03-14_at_13_05_57_AdobeExpress-ezgif com-video-to-gif-converter](https://github.com/tubayapa/Coin-Project-MVC-Yup/assets/147662888/55aa2b10-9c0f-42c0-a444-fcefe066a8f0)
+
+
 ## Key Features:
 - Utilizes CoinCap API for real-time cryptocurrency data.
 - Responsive design for seamless user experience across devices.
