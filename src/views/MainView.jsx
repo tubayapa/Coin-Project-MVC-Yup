@@ -1,8 +1,10 @@
 import { FaBitcoin } from "react-icons/fa";
 import CardView from "./CardView";
 import millify from "millify";
+import { useNavigate } from "react-router-dom";
 
 const MainView = ({ coins, setPage }) => {
+  const navigate = useNavigate();
   return (
     <div className="container-xl mt-4">
       <h5 className="d-flex align-items-center gap-2 ">
@@ -32,10 +34,10 @@ const MainView = ({ coins, setPage }) => {
 
         <tbody>
           {coins.map((coin) => (
-            <tr key={coin.id}>
+            <tr onClick={() => navigate(`/coin/${coin.id}`)} key={coin.id}>
               <td>{coin.rank}</td>
               <td>
-                <span className="text-warning me-2">{coin.symbol}</span>
+                <span className="text-warning me-2 ">{coin.symbol}</span>
                 <span>{coin.name}</span>
               </td>
               <td>$ {millify(coin.priceUsd)}</td>
