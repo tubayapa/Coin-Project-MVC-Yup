@@ -15,16 +15,15 @@ CoinMania is a responsive cryptocurrency tracking web application built using Re
 
 ## Technologies Used
 
-- axios: For making HTTP requests to the CoinCap API.
-- bootstrap: Front-end framework for responsive design.
-- chart.js: Creates interactive charts for coin performance.
-- formik: Manages form state and validation for login.
-- millify: Formats large numbers for better readability.
-- react: Library for building user interfaces.
-- react-chartjs-2: React wrapper for Chart.js.
-- react-dom: Renders React components into the browser DOM.
-- react-icons: Provides popular icon packs for React.
-- react-router-dom: Declarative routing for React apps.
-- yup: Defines validation schemas for forms.
+- **axios**: For making HTTP requests to the CoinCap API.
+- **bootstrap**: Front-end framework for responsive design.
+- **chart.js**: Creates interactive charts for coin performance.
+- **formik**: Manages form state and validation for login.
+- **millify**: Formats large numbers for better readability.
+- **react-chartjs-2**: React wrapper for Chart.js.
+- **react-dom**: Renders React components into the browser DOM.
+- **react-icons**: Provides popular icon packs for React.
+- **react-router-dom**: Declarative routing for React apps.
+- **yup**: Defines validation schemas for forms.
 
 Explore the exciting world of cryptocurrencies with CoinMania! 🚀
